@@ -1,0 +1,50 @@
+/* Variables */
+:root {
+    /* colors */
+    --light-gray: #fafafa;
+    --med-gray: #616161;
+    --dark-gray: #1b1b1b;
+    --blue: #007bff;
+    --blue-hover: #0056b3;
+
+    /* typography */
+    --roboto: 'Roboto', sans-serif;
+    --heading-font-size: 2rem;
+    --body-font-size: 1rem;
+    --heading-line-height: 1.2;
+    --line-height: 1.5;
+}
+
+/* Styles */
+body {
+    background-color: var(--light-gray);
+    font-family: var(--roboto);
+}
+
+h1 {
+    color: var(--dark-gray);
+    font-size: var(--heading-font-size);
+    line-height: var(--line-height);
+}
+
+p {
+    color: var(--med-gray);
+    font-size: var(--body-font-size);
+    line-height: var(--line-height);
+}
+
+button {
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--body-font-size);
+    font-family: var(--roboto);
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--blue-hover);
+}
